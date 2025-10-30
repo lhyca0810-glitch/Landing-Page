@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrewMaster Coffee - Premium Coffee Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-coffee"></i>
+                <span>BrewMaster</span>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-left">
+            <img src="images/Cup of Coffe with spilled coffee beans.png" alt="Coffee Cup" class="hero-image-left">
+        </div>
+        <div class="hero-bg-right">
+            <img src="images/sample model.png" alt="Coffee Beans" class="hero-image-right">
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Premium Coffee Experience</h1>
+            <p class="hero-subtitle">Discover the finest coffee beans from around the world, carefully roasted to perfection</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <p>Crafting exceptional coffee experiences since 1995</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Passionate About Coffee</h3>
+                    <p>At BrewMaster, we believe that great coffee starts with great beans. Our master roasters travel the world to source the finest coffee beans, ensuring every cup delivers an exceptional experience.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>25+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Coffee Varieties</p>
+                        </div>
+                        <div class="stat">
+                            <h4>10k+</h4>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="coffee-beans">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Collection Section -->
+    <section id="products" class="premium-collection">
+        <div class="container">
+            <div class="section-header">
+                <h2>Discover Our World</h2>
+                <p>Two distinct experiences, one premium brand</p>
+            </div>
+            
+            <!-- Collection Cards -->
+            <div class="collection-wrapper">
+                <!-- Cafe Experience Card -->
+                <div class="experience-card cafe-experience">
+                    <div class="card-background-image cafe-bg">
+                        <div class="image-overlay"></div>
+                    </div>
+                    
+                    <div class="card-header">
+                        <div class="experience-label">
+                            <span class="label-text">Cafe Experience</span>
+                            <div class="label-underline"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <h3>BrewMaster Cafe</h3>
+                        <p class="experience-description">Step into our world of exceptional coffee culture. From artisanal blends to handcrafted pastries.</p>
+                        
+                        <div class="highlights-grid">
+                            <div class="highlight-item">
+                                <div class="highlight-icon">☕</div>
+                                <span>Signature Blends</span>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🥐</div>
+                                <span>Fresh Pastries</span>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🍃</div>
+                                <span>Organic Options</span>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">⭐</div>
+                                <span>Expert Baristas</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cta-section">
+                            <button class="experience-btn cafe-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-content">
+                                    <span class="btn-text">Explore Menu</span>
+                                    <span class="btn-subtext">View our full catalog</span>
+                                </span>
+                                <div class="btn-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fashion Collection Card -->
+                <div class="experience-card fashion-experience">
+                    <div class="card-background-image fashion-bg">
+                        <div class="image-overlay"></div>
+                    </div>
+                    
+                    <div class="card-header">
+                        <div class="experience-label">
+                            <span class="label-text">Fashion Collection</span>
+                            <div class="label-underline"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <h3>BrewMaster Style</h3>
+                        <p class="experience-description">Wear your passion for coffee with our exclusive apparel collection designed for the modern coffee enthusiast.</p>
+                        
+                        <div class="highlights-grid">
+                            <div class="highlight-item">
+                                <div class="highlight-icon">👕</div>
+                                <span>Premium Apparel</span>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🎨</div>
+                                <span>Unique Designs</span>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🌱</div>
+                                <span>Sustainable Materials</span>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">✨</div>
+                                <span>Limited Editions</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cta-section">
+                            <button class="experience-btn fashion-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-content">
+                                    <span class="btn-text">Shop Collection</span>
+                                    <span class="btn-subtext">Discover latest styles</span>
+                                </span>
+                                <div class="btn-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom CTA Section -->
+            <div class="collection-footer">
+                <div class="footer-content">
+                    <h4>Can't decide? Explore both worlds!</h4>
+                    <p>Join thousands of coffee lovers who enjoy both our cafe experience and fashion collection</p>
+                    <div class="footer-stats">
+                        <div class="stat-item">
+                            <strong>50K+</strong>
+                            <span>Happy Customers</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>4.9★</strong>
+                            <span>Average Rating</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>100%</strong>
+                            <span>Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The best coffee I've ever tasted! The Ethiopian blend is absolutely amazing."</p>
+                    <div class="customer">
+                        <strong>Sarah Johnson</strong>
+                        <span>Coffee Enthusiast</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"BrewMaster has completely changed my morning routine. Premium quality!"</p>
+                    <div class="customer">
+                        <strong>Mike Chen</strong>
+                        <span>Regular Customer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <p>Ready to elevate your coffee experience? Reach out to us</p>
+            </div>
+            
+            <!-- Contact Info Banner -->
+            <div class="contact-info-banner">
+                <div class="contact-banner-item">
+                    <div class="contact-banner-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-banner-content">
+                        <span class="contact-banner-label">Visit Us</span>
+                        <span class="contact-banner-value">123 Coffee St, Brew City</span>
+                    </div>
+                </div>
+                
+                <div class="contact-banner-item">
+                    <div class="contact-banner-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-banner-content">
+                        <span class="contact-banner-label">Call Us</span>
+                        <span class="contact-banner-value">(555) 123-4567</span>
+                    </div>
+                </div>
+                
+                <div class="contact-banner-item">
+                    <div class="contact-banner-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-banner-content">
+                        <span class="contact-banner-label">Email Us</span>
+                        <span class="contact-banner-value">hello@brewmaster.com</span>
+                    </div>
+                </div>
+                
+                <div class="contact-banner-item">
+                    <div class="contact-banner-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="contact-banner-content">
+                        <span class="contact-banner-label">WhatsApp</span>
+                        <span class="contact-banner-value">+1 (555) 987-6543</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modern Contact Form -->
+            <div class="contact-form-modern">
+                <div class="form-header">
+                    <div class="form-icon-badge">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <h3>Send Us a Message</h3>
+                    <p>Fill out this form and we'll get back to you shortly</p>
+                </div>
+                
+                <form class="modern-form">
+                    <div class="form-group-row">
+                        <div class="input-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="input-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                            <span class="input-highlight"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group-row">
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                            <span class="input-highlight"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Choose a topic</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="order">Order Support</option>
+                            <option value="wholesale">Wholesale Partnership</option>
+                            <option value="feedback">Feedback & Reviews</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <span class="input-highlight"></span>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us how we can help you..." required></textarea>
+                        <span class="input-highlight"></span>
+                    </div>
+                    
+                    <!-- Modern Permissions Section -->
+                    <div class="permissions-modern">
+                        <h4>Communication Preferences</h4>
+                        <div class="checkbox-modern-group">
+                            <div class="checkbox-modern">
+                                <input type="checkbox" id="newsletter3" name="newsletter">
+                                <label for="newsletter3">
+                                    <span class="checkmark"></span>
+                                    <div class="checkbox-content">
+                                        <strong>Newsletter Subscription</strong>
+                                        <small>Receive coffee tips, brewing guides, and new product announcements</small>
+                                    </div>
+                                </label>
+                            </div>
+                            
+                            <div class="checkbox-modern">
+                                <input type="checkbox" id="marketing3" name="marketing">
+                                <label for="marketing3">
+                                    <span class="checkmark"></span>
+                                    <div class="checkbox-content">
+                                        <strong>Marketing Communications</strong>
+                                        <small>Get exclusive offers, promotions, and special deals from BrewMaster</small>
+                                    </div>
+                                </label>
+                            </div>
+                            
+                            <div class="checkbox-modern required">
+                                <input type="checkbox" id="privacy3" name="privacy" required>
+                                <label for="privacy3">
+                                    <span class="checkmark"></span>
+                                    <div class="checkbox-content">
+                                        <strong>Privacy Agreement</strong>
+                                        <small>I agree to the <a href="#" class="privacy-link">Privacy Policy</a> and <a href="#" class="privacy-link">Terms of Service</a> <span class="required-star">*</span></small>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn-modern-submit">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Brand Section -->
+            <div class="footer-brand">
+                <div class="nav-brand">
+                    <i class="fas fa-coffee"></i>
+                    <span>BrewMaster</span>
+                </div>
+                <p>Crafting exceptional coffee experiences since 1995. Where passion meets perfection in every cup.</p>
+            </div>
+            
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-section footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 BrewMaster Coffee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
